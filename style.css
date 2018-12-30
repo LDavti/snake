@@ -1,0 +1,44 @@
+html {
+        background-image: url(https://i.ytimg.com/vi/ajm0nOyXoQ8/maxresdefault.jpg)
+    }
+    h1 {
+        color:white;
+        text-align: center;
+        font-family: 'VT323', monospace;
+        letter-spacing: 5px;
+    }
+
+    #board {
+        width: calc(18 * 18px);
+        margin: auto;
+    }
+
+    #board div {
+    background-color:black;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display:inline-block;
+    float:left;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    }
+
+    #board .snake {
+        background-image: linear-gradient(to right, #808000,#9ACD32, #6B8e23)
+    }
+ #board .apple{
+        color: red;
+        background-image: linear-gradient(to right, #990000,#FF0000,#ff6666)
+    }
+    
+     #gamescore {
+        color: #fff;
+        font-family: 'VT323', monospace;
+        letter-spacing: 5px;
+    }
+            
+  #highscore{
+    color:#aaa;
+    font-size:30px;
+  }
